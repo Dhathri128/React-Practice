@@ -3,6 +3,7 @@ import './App.css'
 import Profile from './components/profile'
 import FunctionDataGetting from './components/FunctionDataGetting'
 import DynamicData from './components/DynamicData'
+import ProfileCard from './components/ProfileCard'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Profile />
       <FunctionDataGetting />
       <DynamicData/>
+      <ProfileCard/>
     </>
   )
 }
