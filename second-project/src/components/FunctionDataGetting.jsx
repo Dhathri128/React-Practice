@@ -5,10 +5,15 @@ function FunctionDataGetting() {
     };
     const result = getGreeting();
 
+    const getNumber = () => {
+    return 100;
+    };
+
     return(
         <div>
-            
             {result}
+            <br></br>
+            {getNumber()}
         </div>
     )
 }
