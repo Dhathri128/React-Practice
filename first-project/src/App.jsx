@@ -16,7 +16,7 @@ function App(){
           <p>from here onward there was section as there in the designing protofolio</p>
          <Home/>
          <About/>
-         <Contact/>
+         <Contact/>  
        </div>
     )
 }
