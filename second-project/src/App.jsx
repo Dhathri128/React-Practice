@@ -1,6 +1,7 @@
 
 import './App.css'
-import Profile from './components/Profile'
+import Profile from './components/profile'
+import FunctionDataGetting from './components/FunctionDataGetting'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <h2>this is profile</h2>
       <Profile />
+      <FunctionDataGetting />
     </>
   )
 }
