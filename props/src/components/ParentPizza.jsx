@@ -8,11 +8,7 @@ const ParentPizza = () => {
 
     return (
         <div>
-            <ChildPizza
-                pizza={pizza}
-                title={title}
-                price={price}
-            />
+            <ChildPizza pizza={pizza} title={title} price={price} />
         </div>
     );
 };
