@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Variables from './components/variables'
 import UseState from './components/UseState'
+import PropsState from './components/PropsState'
 
 function App (){
   
@@ -9,7 +10,8 @@ function App (){
     <div>
       <p>app</p>
      {/* <Variables /> */}
-      <UseState />
+     {/* <UseState /> */}
+      <PropsState />
     </div>
   )
 }
