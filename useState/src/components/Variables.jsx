@@ -18,3 +18,10 @@ const Variables = () => {
 };
 
 export default Variables;
+
+/* see here the value of x displays as zero only , even we click the button "click" displayed on the browser 
+but we can observe the change in console so i have written console.log(x); statement 
+This is disadvantage with varaibles in React - the updated value didn't displayed/rendered on the broswer 
+*/
+
+//So new concept dicovered in react that is useState
