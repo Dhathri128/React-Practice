@@ -5,17 +5,18 @@ import Condition3 from './components/Condition3'
 
 import './App.css'
 import Ternary from './components/Ternary'
+import AndOperator from './components/AndOperator'
 
 
 function App() {
 
   return (
     <>
-        <Ternary/>
+      <AndOperator/>
       {/*<Condition1/>
       <Condition2/>  
       <Condition3/> 
-     
+      <Ternary/>
       */}
     </>
   )
