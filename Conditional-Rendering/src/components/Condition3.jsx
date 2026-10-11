@@ -19,7 +19,7 @@ const Condition3 = () =>{
     return(
         <div>
             <button>display</button>
-            <button>{display}</button>
+            <button onClick={display}>{display}</button>
         </div>
     )
 }
