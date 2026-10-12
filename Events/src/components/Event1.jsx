@@ -1,6 +1,6 @@
 const Event1 =() =>{
     function handleButton(){
-        alert('clicked the button!');  // this is going to be displayed in the browser as an alert meassage when user clicks the button Click
+        alert('clicked the button!');  {/* this is going to be displayed in the browser as an alert meassage when user clicks the button Click*/}
     }
     return(
         <div>
