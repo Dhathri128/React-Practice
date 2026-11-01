@@ -3,7 +3,7 @@ import { useState } from "react"
 const EventSubmit = () =>{
     
     const[text,setText] = useState(" ")
-    function handleButton(){
+    function handleSubmit(){
         alert("Form submitted successfully!");
     } 
     return(
