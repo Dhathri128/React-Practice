@@ -17,7 +17,9 @@ function App() {
     <OnChange/>
     <Change/>
     */}
-    <EventSubmit/>
+    
+    <OnChange/>
+   
     </>
   )
 }

@@ -8,8 +8,10 @@ const Event1 =() =>{
     /* this is going to be displayed in the browser as an alert meassage when user clicks the button Click*/
     return(
         <div>
-            <button onClick={handleButton}>Click</button> // see her we have used onClick attribute that is calling the handleButton function 
+            <button onClick={handleButton}>Click</button> 
         </div>
     )
 }
 export default Event1;
+
+// see her we have used onClick attribute that is calling the handleButton function 
